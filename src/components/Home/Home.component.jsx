@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import ImageSlider from "../ImageSlider/ImageSlider.component";
+import Viewers from "../Viewers/Viewers.component";
 
 import HomeBackground from "../../assets/images/home-background.png";
 
@@ -9,6 +10,7 @@ const Home = (props) => {
   return (
     <Container>
       <ImageSlider />
+      <Viewers />
     </Container>
   );
 };
